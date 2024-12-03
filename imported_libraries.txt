@@ -1,0 +1,220 @@
+Library: optuna
+
+Library: subprocess
+
+Library: copy
+
+Library: yaml
+
+Library: os
+
+Library: pandas
+
+Library: pathlib
+
+Library: time
+
+Library: argparse
+
+Library: platform
+
+Library: sys
+
+Library: export
+
+Library: models
+
+Library: segment
+
+Library: utils
+
+Library: val
+
+Library: torch
+
+Library: contextlib
+
+Library: json
+
+Library: re
+
+Library: warnings
+
+Library: onnx
+
+Library: onnxsim
+
+Library: openvino
+
+Library: x2paddle
+
+Library: coremltools
+
+Library: tensorrt
+
+Library: tensorflow
+
+Library: tensorflowjs
+
+Library: tflite_support
+
+Library: chardet
+
+Library: collections
+
+Library: PyQt5
+
+Library: numpy
+
+Library: PIL
+
+Library: traceback
+
+Library: matplotlib
+
+Library: plotly
+
+Library: random
+
+Library: math
+
+Library: datetime
+
+Library: tqdm
+
+Library: val_dual
+
+Library: val_triple
+
+Library: pickle
+
+Library: pycocotools
+
+Library: torchvision
+
+Library: classify
+
+Library: imageio
+
+Library: imgaug
+
+Library: io
+
+Library: base64
+
+Library: yolo_uiV3
+
+Library: labelv6
+
+Library: makedatasetV9
+
+Library: analysis
+
+Library: replayv3
+
+Library: shutil
+
+Library: expert_app
+
+Library: basic_app
+
+Library: class_dialog
+
+Library: combined_app
+
+Library: yolo_ui
+
+Library: label_ui
+
+Library: label_logic
+
+Library: image_labeling_tool
+
+Library: yolo_uiV2
+
+Library: allv2
+
+Library: reply
+
+Library: glob
+
+Library: multiprocessing
+
+Library: queue
+
+Library: cv2
+
+Library: labelme
+
+Library: ast
+
+Library: zipfile
+
+Library: urllib
+
+Library: typing
+
+Library: requests
+
+Library: IPython
+
+Library: onnxruntime
+
+Library: tflite_runtime
+
+Library: paddle
+
+Library: thop
+
+Library: panoptic
+
+Library: csv
+
+Library: albumentations
+
+Library: scipy
+
+Library: threading
+
+Library: hashlib
+
+Library: itertools
+
+Library: psutil
+
+Library: mss
+
+Library: pafy
+
+Library: logging
+
+Library: inspect
+
+Library: signal
+
+Library: tarfile
+
+Library: pkg_resources
+
+Library: socket
+
+Library: git
+
+Library: seaborn
+
+Library: tritonclient
+
+Library: wandb
+
+Library: clearml
+
+Library: comet_ml
+
+Library: Comet's
+
+Library: train
+
+Library: wandb_utils
+
+Library: 
+
