@@ -1,0 +1,14 @@
+python 3.8
+conda install pytorch==1.12.1 torchvision torchaudio cudatoolkit=11.3 -c pytorch
+conda install -c conda-forge pyqt
+conda install -c conda-forge opencv
+conda install -c conda-forge imageio
+conda install -c conda-forge imgaug
+pip config set global.index-url https://mirrors.aliyun.com/pypi/simple/
+pip install opencv-python-headless
+conda install tqdm
+conda install pandas
+conda install ipython
+conda install psutil 
+conda install seaborn
+conda install tensorboard

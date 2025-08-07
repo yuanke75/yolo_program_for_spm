@@ -1,0 +1,24 @@
+# 使用官方的 Miniconda 基础镜像
+FROM continuumio/miniconda3
+
+# 维护者信息
+LABEL maintainer="your_email@example.com"
+
+# 复制环境配置文件到容器中
+COPY environment.yml /tmp/environment.yml
+
+# 创建 Conda 环境，使用环境配置文件
+RUN conda env create -f /tmp/environment.yml
+
+# 激活环境，并使其在新建容器时自动激活
+RUN echo "source activate pytorch" > ~/.bashrc
+ENV PATH /opt/conda/envs/pytorch/bin:$PATH
+
+# 设置工作目录
+WORKDIR /workspace
+
+# 复制项目文件到工作目录中
+COPY . /workspace
+
+# 默认启动命令
+CMD ["bash"]
